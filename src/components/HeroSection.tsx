@@ -95,7 +95,7 @@ export const HeroSection = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto mb-8"
           >
-            Innovative climate control technology using salt water and solar energy to transform abandoned hot arid regions into green productive lands.
+            Innovative climate control technology using salt water and solar energy to transform hot arid regions
           </motion.p>
 
           <motion.div
@@ -114,7 +114,7 @@ export const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8"
+              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-8"
               asChild
             >
               <a href="#contact">Get in Touch</a>
