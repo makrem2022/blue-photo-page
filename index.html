@@ -1,191 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WEFE-TECH | Water-Energy-Food-Ecosystem Technologies</title>
-  <meta name="description" content="WEFE-TECH - Innovative climate control technology using salt water and solar energy to transform hot arid regions.">
-  <meta name="keywords" content="WEFE-TECH, climate control, outdoor cooling, solar energy, salt water, agriculture">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
-    .container { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
-    header { background: white; padding: 1rem 0; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 100; }
-    header .container { display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: bold; color: #17a2b8; }
-    nav ul { list-style: none; display: flex; gap: 2rem; }
-    nav a { text-decoration: none; color: #333; transition: color 0.3s; }
-    nav a:hover { color: #17a2b8; }
-    .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4rem 0; text-align: center; }
-    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
-    .hero p { font-size: 1.1rem; margin-bottom: 1.5rem; }
-    .hero img { width: 100%; max-width: 500px; margin: 1.5rem auto; display: block; border-radius: 10px; height: 300px; object-fit: cover; }
-    section { padding: 3rem 0; }
-    h2 { font-size: 2rem; margin-bottom: 2rem; text-align: center; color: #333; }
-    h3 { font-size: 1.3rem; margin: 1rem 0; color: #17a2b8; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
-    .card { background: #f8f9fa; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
-    .card:hover { transform: translateY(-3px); }
-    .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 6px; margin-bottom: 1rem; }
-    .features { background: #f5f5f5; }
-    .feature-item { text-align: center; padding: 1.5rem; }
-    .feature-item h4 { color: #17a2b8; margin: 0.8rem 0; }
-    .about { background: white; }
-    .about-content { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; }
-    .about-content img { width: 100%; border-radius: 8px; height: 300px; object-fit: cover; }
-    .contact { background: #667eea; color: white; text-align: center; }
-    .contact h2 { color: white; }
-    .contact-form { max-width: 500px; margin: 1.5rem auto; }
-    .contact-form input, .contact-form textarea { width: 100%; padding: 0.7rem; margin-bottom: 0.8rem; border: none; border-radius: 4px; }
-    .contact-form button { background: #764ba2; color: white; padding: 0.8rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 0.95rem; }
-    .contact-form button:hover { background: #5a3b7a; }
-    footer { background: #333; color: white; text-align: center; padding: 1.5rem 0; margin-top: 2rem; font-size: 0.9rem; }
-    footer p { margin: 0.3rem 0; }
-    @media (max-width: 768px) { nav ul { flex-direction: column; gap: 0.8rem; } .hero h1 { font-size: 1.8rem; } .about-content { grid-template-columns: 1fr; } }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="logo">WEFE-TECH</div>
-      <nav><ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul></nav>
-    </div>
-  </header>
-  <section class="hero" id="home">
-    <div class="container">
-      <h1>Water-Energy-Food-Ecosystem Technologies</h1>
-      <p>Revolutionary Climate Control for Arid Regions</p>
-      <p>Reduce outdoor temperature from 40°C to 25°C</p>
-      <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/hero-bg.jpg" alt="Hero Background">
-    </div>
-  </section>
-  <section class="features" id="features">
-    <div class="container">
-      <h2>Key Features</h2>
-      <div class="grid">
-        <div class="card">
-          <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/wefe-system.jpg" alt="WEFE System">
-          <h4>Innovative System</h4>
-          <p>Advanced water circulation and energy optimization</p>
-        </div>
-        <div class="card">
-          <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/air-purification.jpg" alt="Air Purification">
-          <h4>Air Purification</h4>
-          <p>Natural cooling with air quality improvement</p>
-        </div>
-        <div class="card">
-          <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/agro-wefe.jpg" alt="Agriculture">
-          <h4>Agricultural Integration</h4>
-          <p>Perfect for farms in hot climates</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="agro-wefe">
-    <div class="container">
-      <h2>Agro-WEFE Technology</h2>
-      <div class="grid">
-        <div class="card">
-          <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/agro-pv.jpg" alt="Agro PV">
-          <h3>Photovoltaic Integration</h3>
-          <p>Solar energy with precision agriculture</p>
-        </div>
-        <div class="card">
-          <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/lab-scale.jpg" alt="Lab Scale">
-          <h3>Lab-Scale Testing</h3>
-          <p>Proven results from research</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="impacts" style="background: #f5f5f5;">
-    <div class="container">
-      <h2>Environmental Impact</h2>
-      <div class="grid">
-        <div class="feature-item">
-          <h4>✓ Temperature Reduction</h4>
-          <p>Up to 15°C reduction</p>
-        </div>
-        <div class="feature-item">
-          <h4>✓ Water Conservation</h4>
-          <p>Efficient water usage</p>
-        </div>
-        <div class="feature-item">
-          <h4>✓ Renewable Energy</h4>
-          <p>100% solar powered</p>
-        </div>
-        <div class="feature-item">
-          <h4>✓ Sustainable Growth</h4>
-          <p>Agricultural development</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="applications">
-    <div class="container">
-      <h2>Applications</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>🌾 Agriculture</h3>
-          <p>Enhance crop production in arid regions</p>
-        </div>
-        <div class="card">
-          <h3>🌟 Urban Cooling</h3>
-          <p>Create comfortable outdoor spaces</p>
-        </div>
-        <div class="card">
-          <h3>🎧 Industrial</h3>
-          <p>Temperature management for facilities</p>
-        </div>
-        <div class="card">
-          <h3>🔬 Research</h3>
-          <p>Climate control technologies</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="about" style="background: #f9f9f9;">
-    <div class="container">
-      <h2>About WEFE-TECH</h2>
-      <div class="about-content">
-        <div>
-          <h3>Our Mission</h3>
-          <p>WEFE-TECH develops innovative climate control technologies using salt water and solar energy to transform hot arid regions into sustainable, productive ecosystems.</p>
-          <p style="margin-top: 1rem;">By combining water management, renewable energy, and food production, we create solutions for climate challenges while supporting economic growth and food security.</p>
-        </div>
-        <img src="https://raw.githubusercontent.com/makrem2022/blue-photo-page/main/src/assets/founder.jpg" alt="Founder">
-      </div>
-    </div>
-  </section>
-  <section class="founder" style="text-align: center; padding: 2rem 0;">
-    <div class="container">
-      <h2>Leadership</h2>
-      <p>Founded and led by visionary innovators committed to sustainable climate solutions</p>
-    </div>
-  </section>
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Get In Touch</h2>
-      <div class="contact-form">
-        <form onsubmit="alert('Thank you! We will contact you soon.'); return false;">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea rows="4" placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 WEFE-TECH. All rights reserved.</p>
-      <p>Water-Energy-Food-Ecosystem Technologies</p>
-    </div>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEFE-TECH | Water-Energy-Food-Ecosystem Technologies</title>
+    <meta name="description" content="WEFE-TECH - Innovative climate control technology using salt water and solar energy to transform hot arid regions. Reduce outdoor temperature from 40°C to 25°C." />
+    <meta name="keywords" content="WEFE-TECH, climate control, outdoor cooling, solar energy, salt water, agriculture, arid regions, sustainable technology" />
+    <meta name="author" content="BRIK OUTDOOR AC" />
+
+    <meta property="og:title" content="WEFE-TECH | Revolutionary Climate Control Technology" />
+    <meta property="og:description" content="Innovative Water-Energy-Food-Ecosystem Technologies for sustainable development in arid regions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wefe_tech" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
