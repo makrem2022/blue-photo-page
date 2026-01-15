@@ -60,15 +60,17 @@ export const AboutSection = () => {
                 land, and energy-related resources.
               </p>
               <p>
-                We aim to connect multi-sectorial stakeholders to improve resource use and sustainable development. 
-                BOAC delivers turnkey Agri-PV solutions for efficient agri-food production, processing, and energy production.
+                BOAC delivers big scale turnkey HVAC solutions for indoor and outdoor uses.
+              </p>
+              <p>
+                BOAC delivers also turnkey Agri-PV solutions for efficient agri-food production, processing, and energy production.
               </p>
             </div>
 
             <div className="mt-8 p-6 bg-teal/10 rounded-xl border-l-4 border-teal">
               <p className="text-foreground font-medium italic">
                 "BOAC has successfully developed a new modular high-efficient outdoor cooling system capable of reducing 
-                Outdoor Air Temperature from 40°C to 25°C on a large open-air area."
+                Outdoor Air Temperature from 43°C to 25°C on a large open-air area."
               </p>
             </div>
           </motion.div>
