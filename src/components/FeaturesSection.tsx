@@ -8,8 +8,8 @@ const features = [
   {
     icon: Thermometer,
     title: 'Air Cooling',
-    description: 'The WEFE TECH system harnesses the power of nature to cool the air. Our commercial unit delivers 695 kW cooling capacity—equivalent to 198 traditional 12,000 BTU air conditioners—using only 6 kW of solar energy. Instead 260 kW for 200 traditional AC. That means 99.5% of cooling comes from natural water evaporation.',
-    highlight: '230x more efficient than consumed energy',
+    description: 'The WEFE TECH system harnesses the power of nature to cool the air. Our commercial unit delivers 700 kW cooling capacity—equivalent to 200 traditional 12,000 BTU air conditioners—using only 6 kW of solar energy instead of 260 kW that would be used by the 200 traditional AC. That means 99% of the cooling capacity comes from the natural water evaporation. WEFE TECH unit produces a cooling capacity 116 times than its consumed energy and it uses only 3% of that of the traditional AC.',
+    highlight: '116x cooling capacity vs consumed energy',
   },
   {
     icon: Wind,
