@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { GraduationCap, Briefcase, Award, Globe, Lightbulb, Users } from 'lucide-react';
-import founderImg from '@/assets/founder.jpg';
+import founderImg from '@/assets/dr-mounir-brik.jpg';
 
 const credentials = [
   {

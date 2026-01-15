@@ -128,18 +128,26 @@ export const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="inline-block glass-card rounded-2xl px-8 py-6"
           >
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-4 md:gap-8">
               <div className="text-center">
-                <span className="block text-3xl md:text-4xl font-heading font-bold text-destructive">40°C</span>
+                <span className="block text-3xl md:text-4xl font-heading font-bold text-destructive">43°C</span>
                 <span className="text-sm text-muted-foreground">Outdoor</span>
               </div>
               <div className="flex items-center">
-                <div className="w-16 h-1 bg-gradient-to-r from-destructive to-teal rounded-full" />
+                <div className="w-8 md:w-12 h-1 bg-gradient-to-r from-destructive to-primary rounded-full" />
                 <span className="mx-2 text-muted-foreground">→</span>
+              </div>
+              <div className="text-center bg-primary/20 rounded-xl px-4 py-2 border border-primary/30">
+                <span className="block text-sm font-semibold text-primary mb-1">WEFE-TECH</span>
+                <span className="block text-2xl md:text-3xl font-heading font-bold text-primary">🌀</span>
+              </div>
+              <div className="flex items-center">
+                <span className="mx-2 text-muted-foreground">→</span>
+                <div className="w-8 md:w-12 h-1 bg-gradient-to-r from-primary to-teal rounded-full" />
               </div>
               <div className="text-center">
                 <span className="block text-3xl md:text-4xl font-heading font-bold text-teal">25°C</span>
-                <span className="text-sm text-muted-foreground">With WEFE-TECH</span>
+                <span className="text-sm text-muted-foreground">Outdoor</span>
               </div>
             </div>
           </motion.div>

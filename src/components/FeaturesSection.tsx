@@ -8,7 +8,7 @@ const features = [
   {
     icon: Thermometer,
     title: 'Air Cooling',
-    description: 'The WEFE TECH system harnesses the power of nature to cool the air. Our commercial unit delivers 695 kW cooling capacity—equivalent to 198 traditional 12,000 BTU air conditioners—using only 3 kW of solar energy. That means 99.5% of cooling comes from natural water evaporation.',
+    description: 'The WEFE TECH system harnesses the power of nature to cool the air. Our commercial unit delivers 695 kW cooling capacity—equivalent to 198 traditional 12,000 BTU air conditioners—using only 6 kW of solar energy. Instead 260 kW for 200 traditional AC. That means 99.5% of cooling comes from natural water evaporation.',
     highlight: '230x more efficient than consumed energy',
   },
   {
@@ -98,12 +98,54 @@ export const FeaturesSection = () => {
           transition={{ duration: 0.6 }}
           className="bg-secondary/50 rounded-2xl p-8 mb-16"
         >
-          <h3 className="font-heading font-bold text-xl text-foreground mb-4 text-center">How It Works</h3>
-          <p className="text-muted-foreground text-center max-w-4xl mx-auto leading-relaxed">
-            The WEFE TECH system uses salt water (sea water or brackish water) and solar energy in both forms (thermal and photovoltaic). 
-            It relies on purely physical scientific principles without any chemical catalyst or additive. Salt water is the driver—valued as an inexhaustible, 
-            abundant resource to produce cold air, desalted water, purified air, and humidified atmosphere favorable for crop cultivation.
-          </p>
+          <h3 className="font-heading font-bold text-2xl text-foreground mb-6 text-center">How It Works</h3>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">1</span>
+                <p className="text-muted-foreground leading-relaxed">
+                  Low-pressure open nozzle system produces droplets distributed homogeneously in scattered form regularly along a special hydrophobic mesh, so that billions of dispersed droplets are formed and stick on the mesh.
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">2</span>
+                <p className="text-muted-foreground leading-relaxed">
+                  The ambient hot air is drawn from outside to flow into the evaporation chamber at a controlled speed through the meshwork to immerse billions of droplets stuck to the mesh from all sides, evaporating them to produce coolness that turns into cold air which will be blown out.
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">3</span>
+                <p className="text-muted-foreground leading-relaxed">
+                  Water is pumped inside in order to produce constantly and regularly new droplets to replace the evaporated ones and to wash the mesh and protecting it from salting.
+                </p>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">4</span>
+                <p className="text-muted-foreground leading-relaxed">
+                  The system uses a high technical efficient and at the same time very cost-effective material as evaporator. This low-cost approach allows us to build evaporative cooling on a very large scale, generating several megawatts of cooling power.
+                </p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">5</span>
+                <p className="text-muted-foreground leading-relaxed">
+                  The WEFE-TECH® system is a modular system. After a continuous steady regime is established, its extend achieves about 2500 m² where the temperature is reduced by 10°C to 15°C and the relative humidity is elevated to 90%. Number of modules depends on the required area to be cooled.
+                </p>
+              </div>
+              
+              <div className="bg-primary/10 rounded-xl p-4 border border-primary/20">
+                <p className="text-sm text-foreground font-medium">
+                  ✨ An additional optional system can be added to convert the excess moisture to 60% into fresh drinking water and the residual brine water into salt. This can easily reach an outside temperature between 19°C to 23°C with humidity between 40% and 60%.
+                </p>
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
