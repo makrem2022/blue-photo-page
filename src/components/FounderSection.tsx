@@ -70,17 +70,15 @@ export const FounderSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.6 }}
-            className="relative"
+            className="flex flex-col items-center lg:items-start"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-strong">
+            <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-strong border-4 border-primary/20">
               <img 
                 src={founderImg} 
                 alt="Dr. Eng. Mounir BRIK" 
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
-            {/* Decorative element */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl gradient-ocean opacity-20 -z-10" />
             
             {/* Personal info card */}
             <motion.div
@@ -88,9 +86,9 @@ export const FounderSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="mt-6 bg-card rounded-xl p-4 border border-border"
+              className="mt-6 bg-card rounded-xl p-4 border border-border max-w-sm"
             >
-              <p className="text-sm text-muted-foreground">
+              <p className="text-sm text-muted-foreground text-center lg:text-left">
                 <span className="font-semibold text-foreground">Personal:</span> Tunisian with Austrian citizenship, 
                 born September 1, 1969, married with 3 children
               </p>
