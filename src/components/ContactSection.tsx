@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Bengardane, Tunisia',
+    value: 'Rue de l\'Environnement, 4160, Bengardane, Tunisia',
   },
   {
     icon: Phone,
